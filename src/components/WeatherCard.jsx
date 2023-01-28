@@ -17,15 +17,30 @@ const WeatherCard = ({ weather }) => {
       </div>
       <div className='Card-body'>
         <h2 className='Weather-temp'>{weather ? Math.round(weather.main?.temp - 273.15) : ""}°C</h2>
-        <div>
-          <div>
-            <span></span>
+        <div className='Weather-details'>
+          <div className='Parameters'>
+            <span className='Param-label'>Details</span>
+          </div>            
+          <div className='Parameters'>
+            <span className='Param-label'>Feels like</span>
+            <span className='Param-val'>
+              {weather ? (weather.main?.feels_like - 273.15).toFixed(2) : "-"} °C
+            </span>
           </div>
-
+          <div className='Parameters'>
+          <span className='Param-label'>Humidity</span>
+            <span className='Param-val'>
+              {weather ? weather.main?.humidity  : "-"} %</span>
+          </div>
+          <div className='Parameters'>
+          <span className='Param-label'>Pressure</span>
+            <span className='Param-val'>
+              {weather ? weather.main?.pressure  : "-"} hPs</span>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default WeatherCard;
