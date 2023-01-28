@@ -1,6 +1,12 @@
 function App() {
   return (
-    <div className="App">Weather React App</div>
+    <div className="Container">
+      <h1 className="App-heading">Weather React App</h1>
+      <form>
+        <input />
+        <button type="submit">Search</button>
+      </form>
+    </div>
   );
 }
 
