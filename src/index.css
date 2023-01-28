@@ -23,6 +23,7 @@ html {
 
 .Container {
   background-color: #cecece;
+
   height: 50rem;
   padding: 3rem;
   text-align: center;
@@ -30,7 +31,7 @@ html {
 
 .App-heading {
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 form {
@@ -41,10 +42,11 @@ form {
 }
 
 input {
-  padding: 10px;
-  font-size: 18px;
-  margin-right: 10px;
+  border: 0.1rem solid black;
   border-radius: 6px;
+  font-size: 18px;
+  margin-right: 1rem;
+  padding: 10px;
 }
 
 button {
@@ -74,55 +76,6 @@ button {
   margin: 10px;
 }
 
-/*
-
-.App {
-  font-family: "Roboto", Arial, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-input {
-  padding: 10px;
-  font-size: 18px;
-  margin-right: 10px;
-  border-radius: 6px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-}
-
-.app_heading {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.weather-data {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.weather-data p {
-  font-size: 18px;
-  margin: 10px;
-}
-
 p.error {
   color: red;
   text-align: center;
@@ -130,7 +83,7 @@ p.error {
   font-size: 1.2rem;
 }
 
-.weather-card {
+.Weather-card {
   width: 300px;
   border-radius: 6px;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
@@ -140,8 +93,8 @@ p.error {
   padding: 0 20px 20px 20px;
 }
 
-.card-header,
-.card-body {
+.Card-header,
+.Card-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -155,18 +108,18 @@ p.error {
   letter-spacing: 1px;
 }
 
-.weather-description {
+.Weather-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1;
   margin: 0;
 }
 
-.weather-icon {
+.Weather-icon {
   width: 100px;
 }
 
-.weather-temp {
+.Weather-temp {
   font-weight: 600;
   font-size: 70px;
   width: auto;
@@ -174,26 +127,24 @@ p.error {
   margin: 10px 0;
 }
 
-.weather-details {
+.Weather-details {
   width: 100%;
   padding-left: 20px;
 }
 
-.parameters {
+.Parameters {
   display: flex;
   justify-content: space-between;
 }
 
-.param-label {
+.Param-label {
   text-align: left;
   font-weight: 400;
   font-size: 12px;
 }
 
-.param-val {
+.Param-val {
   text-align: right;
   font-weight: 600;
   font-size: 12px;
 }
-
-*/
