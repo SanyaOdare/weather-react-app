@@ -17,6 +17,8 @@ export async function fetchWeather(city, setError) {
   }
 }
 
+
+
 /*
 import axios from "axios";
 
